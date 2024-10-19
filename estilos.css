@@ -1,0 +1,16 @@
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+}
+
+[data-bs-theme="dark"]{
+  color: white;
+  .nav-link, .card-body, .offcanvas, .acordion, .btn{
+    --bs-nav-link-color:white;
+    --bs-card-color:white;
+    --bs-offcanvas-color:white;
+    --bs-body-color:white;
+  }
+}
+
